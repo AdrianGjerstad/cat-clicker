@@ -1,0 +1,132 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: normal;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+#version {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  padding: 8px;
+
+  background: #aaa;
+  color: #333;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  border-radius: 0 16px 0 0;
+
+  cursor: pointer;
+
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+#version:hover {
+  background: #ccc;
+}
+
+.top {
+  height: 9.44444444444444444444444444444444vh;
+  background: #777;
+  border-bottom: 0.66666666666666666666666vh solid #333;
+}
+
+.col {
+  float: left;
+  width: 32%;
+  height: 89.444444444444444444444444444444vh;
+
+  color: white;
+}
+
+.col.int1 {
+  background: #555;
+  border-left: 0.6666666666666666vw solid #111;
+  border-right: 0.6666666666666666vw solid #111;
+}
+
+.col.int2 {
+  background: #777;
+  border-left: 0.6666666666666666vw solid #333;
+  border-right: 0.6666666666666666vw solid #333;
+}
+
+.col.int3 {
+  background: #999;
+  border-left: 0.6666666666666666vw solid #555;
+  border-right: 0.6666666666666666vw solid #555;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  border-top: 0.66666666666666666666666vh solid #333;
+}
+
+.section {
+  padding: 8px;
+}
+
+a {
+  color: aqua;
+  text-decoration-style: dashed;
+
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+.centerpiece {
+  position: fixed;
+  top: 10vh;
+  left: 50vw;
+  transform: translate(-44px, -44px);
+  background: #ccc;
+  padding: 16px;
+  border-radius: 100%;
+  border: 1px solid #333;
+}
+
+.cat-button {
+  position:fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-110px, -110px);
+  padding: 16px;
+
+  -webkit-text-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+  -moz-text-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+  text-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
