@@ -114,9 +114,15 @@ a:hover {
   transform: translate(-110px, -110px);
   padding: 16px;
 
-  -webkit-text-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
-  -moz-text-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
-  text-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+  filter: drop-shadow(10px 0 20px black);
+  -webkit-transition: filter 1s;
+  transition: filter 1s;
+
+  cursor: pointer;
+}
+
+.cat-button:hover {
+  filter: drop-shadow(10px 0 20px #bb4);
 }
 
 
