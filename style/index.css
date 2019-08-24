@@ -62,6 +62,9 @@ body {
   background: #777;
   border-left: 0.6666666666666666vw solid #333;
   border-right: 0.6666666666666666vw solid #333;
+
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .col.int3 {
@@ -123,6 +126,70 @@ a:hover {
 
 .cat-button:hover {
   filter: drop-shadow(10px 0 20px #bb4);
+}
+
+.middle-column-text {
+  position: fixed;
+  bottom: 8px;
+
+  -webkit-text-shadow: 0px 0px 6px white;
+  -moz-text-shadow: 0px 0px 6px white;
+  text-shadow: 0px 0px 6px white;
+}
+
+.middle-column-text-name {
+  position: fixed;
+  bottom: 46px;
+
+  -webkit-text-shadow: 0px 0px 6px white;
+  -moz-text-shadow: 0px 0px 6px white;
+  text-shadow: 0px 0px 6px white;
+
+  font-size: 20px;
+}
+
+.upgrade {
+  background: #666;
+  border-bottom: 4px solid #444;
+  border-right: 4px solid #444;
+  border-left: 4px solid #888;
+  border-top: 4px solid #888;
+
+  -webkit-text-shadow: 0px 0px 6px #ff4;
+  -moz-text-shadow: 0px 0px 6px #ff4;
+  text-shadow: 0px 0px 6px #ff4;
+
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.upgrade-title {
+  position: relative;
+  left: 0;
+  bottom: 20px;
+  font-weight: 700;
+
+  margin: 4px;
+
+  -webkit-text-shadow: 0px 0px 6px white;
+  -moz-text-shadow: 0px 0px 6px white;
+  text-shadow: 0px 0px 6px white;
+}
+
+.upgrade-data {
+  background: #111;
+  position: relative;
+  left: 0;
+  bottom: 0;
+
+  padding: 4px;
+}
+
+.cost {
+  -webkit-text-shadow: 0px 0px 6px lightblue;
+  -moz-text-shadow: 0px 0px 6px lightblue;
+  text-shadow: 0px 0px 6px lightblue;
 }
 
 
